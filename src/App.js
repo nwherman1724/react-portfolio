@@ -1,13 +1,13 @@
 import './App.css';
-import BucketList from './components/BucketList';
+import Nav from './components/Nav.js';
 
 function App() {
   return (
     <div className="">
       <Nav />
-      <Hero />
+      {/* <Hero />
       <Social />
-      <Projects />
+      <Projects /> */}
     </div>
   );
 }
