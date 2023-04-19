@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="">
       <Nav />
-      {/* <Hero />
-      <Social />
+      <Hero />
+      {/* <Social />
       <Projects /> */}
     </div>
   );

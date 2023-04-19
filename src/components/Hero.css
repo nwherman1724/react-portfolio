@@ -1,0 +1,44 @@
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: radial-gradient(circle 60vh at 50% 100%, blueviolet, white); 
+    height: 84vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+  
+   .hero-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 6vh;
+      padding-bottom: 6vh;
+   }
+  
+   .name {
+     color: rebeccapurple;
+   }
+  
+   .hero-button {
+      margin-top: 10px;
+   }
+  
+   .spacer {
+     padding: 1.5%;
+   }
+  
+  figure {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+  
+  .portrait {
+      width: 55vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
