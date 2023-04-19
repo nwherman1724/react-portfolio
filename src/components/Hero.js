@@ -10,7 +10,7 @@ function Hero () {
             <div class="spacer"></div>
             </div>
             <figure>
-                <img class="portrait" src="./images/Take2.png" alt=""/>
+                <img class="portrait" src="../img/Take2.png" alt="Man with baby"/>
             </figure>
         </div>
       
