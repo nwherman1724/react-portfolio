@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import heroImage from '../img/Take2.png';
 
 function Hero () {
     return (
@@ -10,7 +11,7 @@ function Hero () {
             <div class="spacer"></div>
             </div>
             <figure>
-                <img class="portrait" src="../img/Take2.png" alt="Man with baby"/>
+                <img class="portrait" src={heroImage} alt="Man with baby"/>
             </figure>
         </div>
       
