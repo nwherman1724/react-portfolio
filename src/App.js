@@ -3,8 +3,11 @@ import BucketList from './components/BucketList';
 
 function App() {
   return (
-    <div className="bucket-app">
-      <BucketList />
+    <div className="">
+      <Nav />
+      <Hero />
+      <Social />
+      <Projects />
     </div>
   );
 }
