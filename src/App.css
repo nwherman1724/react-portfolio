@@ -12,3 +12,12 @@ html,body
   padding: 0px;
   overflow-x: hidden; 
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+.flex {
+  display: flex;
+}

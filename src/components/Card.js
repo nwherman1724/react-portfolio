@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
 import Placeholder from '../img/placeholder_img.png'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Card() {
     return (

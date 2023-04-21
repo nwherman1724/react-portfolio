@@ -2,14 +2,19 @@ import './App.css';
 import Nav from './components/Nav.js';
 import Hero from './components/Hero.js';
 import Social from './components/Social.js';
+import Card from './components/Card.js';
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Nav />
       <Hero />
       <Social />
-      {/* <Projects /> */}
+      <div className='flex'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }

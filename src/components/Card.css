@@ -1,0 +1,78 @@
+.deck {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ .card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 30vw;
+    height: 500px;
+ }
+ 
+ #cardTitle {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+ }
+ 
+ .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .card img {
+    padding: 0px;
+ }
+ 
+ .card p {
+    padding: 10px;
+ }
+ 
+ .link {
+    text-decoration: none;
+    color: rebeccapurple;
+ }
+ 
+ #petstarLink {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ 
+ .button-link {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .button-link a:link {
+    text-decoration: none;
+ }
+ 
+ .button-link a:visited {
+    text-decoration: none;
+ }
+ 
+ .button-link a:hover {
+    text-decoration: none;
+ }
+ 
+ .button-link a:active {
+    text-decoration: none;
+ }
+ .card-text{
+    text-align: center;
+ }
+ 
+ .card-link {
+    margin: 10px;
+ }
