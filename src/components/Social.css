@@ -1,0 +1,23 @@
+.contact-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+ }
+
+ .contact-top li {
+    display: inline;
+    padding: 20px;
+ }
+
+ .contact-top a {
+    text-decoration: none;
+    color: white;
+ }
+
+ .contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+ }
