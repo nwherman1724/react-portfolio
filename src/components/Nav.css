@@ -10,7 +10,7 @@
 
 nav li {
     display: inline;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in;
     border-bottom: 2px solid transparent;
     position: relative;
     margin: 0 auto;
@@ -22,7 +22,7 @@ nav li:hover{
     width: 100%;
  }
 
- nav li:focus{
+ nav li:active{
     border-bottom: 2px solid rebeccapurple;
     width: 100%;
  }
