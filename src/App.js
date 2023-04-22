@@ -9,6 +9,7 @@ import Project4 from './components/Project4';
 import Project5 from './components/Project5';
 import Project6 from './components/Project6';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Project5 />
         <Project6 />
       </div>
+      <Contact />
       <Footer />
     </div>
   );
