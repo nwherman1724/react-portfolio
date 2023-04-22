@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css';
-import Placeholder from '../img/placeholder_img.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
@@ -11,10 +10,10 @@ function Card(props) {
                 <div id="cardTitle">
                   <h3>{props.title}</h3>
                 </div>
-                <img src= { Placeholder } width="350px" alt=" image cap"/>
+                <img src= {props.image} width="350px" alt=" image cap"/>
                 <div className="center">
-                   <p className="card-text">{props.description}</p>
-                   <a href="#" target="_blank"  className="link card-link"><FontAwesomeIcon icon={faGithub} size= "3x" className="center link" /></a>
+                   <p className="card-text">{props.desc}</p>
+                   <a href={props.github} target="_blank"  className="link card-link"><FontAwesomeIcon icon={faGithub} size= "3x" className="center link" /></a>
                 </div>
             </div>
         </div>
