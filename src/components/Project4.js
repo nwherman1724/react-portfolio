@@ -2,10 +2,10 @@ import React from 'react';
 import './Card.css';
 import Card from './Card';
 
-function Project2() {
+function Project4() {
     return (
         <Card/>
     )
 }
 
-export default Project2;
+export default Project4;

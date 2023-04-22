@@ -2,7 +2,12 @@ import './App.css';
 import Nav from './components/Nav.js';
 import Hero from './components/Hero.js';
 import Social from './components/Social.js';
-import Card from './components/Card.js';
+import Project1 from './components/Project1';
+import Project2 from './components/Project2';
+import Project3 from './components/Project3';
+import Project4 from './components/Project4';
+import Project5 from './components/Project5';
+import Project6 from './components/Project6';
 
 function App() {
   return (
@@ -11,12 +16,12 @@ function App() {
       <Hero />
       <Social />
       <div className='flex'>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        <Project1 />
+        <Project2 />
+        <Project3 />
+        <Project4 />
+        <Project5 />
+        <Project6 />
       </div>
     </div>
   );
