@@ -4,7 +4,7 @@ import Card from './Card';
 
 function Project3() {
     return (
-        <Card/>
+        <Card title="Project3"/>
     )
 }
 

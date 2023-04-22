@@ -4,16 +4,16 @@ import Placeholder from '../img/placeholder_img.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
-function Card() {
+function Card(props) {
     return (
         <div className="deck">
             <div className="card center">
                 <div id="cardTitle">
-                  <h3>Title</h3>
+                  <h3>{props.title}</h3>
                 </div>
                 <img src= { Placeholder } width="350px" alt=" image cap"/>
                 <div className="center">
-                   <p className="card-text">Project Description</p>
+                   <p className="card-text">{props.description}</p>
                    <a href="#" target="_blank"  className="link card-link"><FontAwesomeIcon icon={faGithub} size= "3x" className="center link" /></a>
                 </div>
             </div>
