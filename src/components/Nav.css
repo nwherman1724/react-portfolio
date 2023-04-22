@@ -22,7 +22,7 @@ nav li:hover{
     width: 100%;
  }
 
- nav li a:focus{
+ nav li:focus{
     border-bottom: 2px solid rebeccapurple;
     width: 100%;
  }
