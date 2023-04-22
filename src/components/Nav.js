@@ -9,7 +9,7 @@ function Nav() {
           <div id="logo"><a href="#">Nick Herman</a></div>
           <ul>
             <li class="middle"><a href="#About">About Me</a></li>
-            <li class="middle"><a href="#Apps">Work</a></li>
+            <li class="middle"><a href="#work">Work</a></li>
             {/* <!-- <li class="middle"><a href="#Contact">Contact Me</a></li> --> */}
             <li class="middle"><a href={ Resume } download="N.Herman Resume">Resume</a></li>
           </ul>

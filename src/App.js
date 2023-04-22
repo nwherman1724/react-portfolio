@@ -8,6 +8,7 @@ import Project3 from './components/Project3';
 import Project4 from './components/Project4';
 import Project5 from './components/Project5';
 import Project6 from './components/Project6';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Nav />
       <Hero />
       <Social />
-      <div className='flex'>
+      <div id="work" className='flex'>
         <Project1 />
         <Project2 />
         <Project3 />
@@ -23,6 +24,7 @@ function App() {
         <Project5 />
         <Project6 />
       </div>
+      <Footer />
     </div>
   );
 }

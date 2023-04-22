@@ -10,13 +10,29 @@
 
 nav li {
     display: inline;
+    transition: all .3s ease-in-out;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    margin: 0 auto;
+    width: 0%;
 }
+
+nav li:hover{
+    border-bottom: 2px solid rebeccapurple;
+    width: 100%;
+ }
+
+ nav li a:focus{
+    border-bottom: 2px solid rebeccapurple;
+    width: 100%;
+ }
 
 nav li a {
     color: black;
     text-decoration: none;
     padding: 25px;
 }
+ 
 
 #logo a{
     text-decoration: none;
