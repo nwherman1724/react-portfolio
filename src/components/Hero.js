@@ -7,7 +7,7 @@ function Hero () {
         
         <div id="#about" class="hero-image">
             <div class="hero-text">
-            <h1>I'm <span class="name">Nick. </span> Husband.  Father.  Front-End Developer.</h1>
+            <h1>I'm <span class="name">Nick. </span> Husband.  Father.  Full-Stack Developer.</h1>
             <div class="spacer"></div>
             </div>
             <figure>
