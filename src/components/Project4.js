@@ -6,10 +6,10 @@ import Placeholder from '../img/placeholder_img.png'
 function Project4() {
     return (
         <Card 
-        title="Project4" 
-        desc="Here is the projects description!"
+        title="Rate My Pet" 
+        desc="This is a full-stack web application for users with pets who are able to log in and create a profile for their pet. They are able to rate their own pet along with being able to rate and view other user's pets."
         image={ Placeholder }
-        github=""/>
+        github="https://github.com/nwherman1724/rmp"/>
     )
 }
 

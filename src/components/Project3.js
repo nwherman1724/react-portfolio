@@ -7,10 +7,10 @@ import Placeholder from '../img/placeholder_img.png'
 function Project3() {
     return (
         <Card 
-        title="Project3" 
-        desc="Here is the projects description!"
+        title="Social API Backend" 
+        desc="This app is the back-end api for a social network. It utilizes Mongoose, Express.js, and Node.js. This is a CRUD application. The routes can be check on Insomnia."
         image={ Placeholder }
-        github=""/>
+        github="https://github.com/nwherman1724/socialapi"/>
     )
 }
 

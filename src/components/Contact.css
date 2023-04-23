@@ -1,0 +1,23 @@
+.contactCard {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px;
+    border-radius: 5px;
+ }
+ 
+ .contactTitle {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+ }
+ 
+ input {
+    margin-bottom: 5px;
+    width: 300px;
+ }
+ 
+ #textarea {
+    height: 100px;
+ }

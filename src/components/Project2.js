@@ -6,10 +6,10 @@ import Placeholder from '../img/placeholder_img.png'
 function Project2() {
     return (
         <Card 
-        title="Project2" 
-        desc="Here is the projects description!"
+        title="Jate Text Editor" 
+        desc="This is a Progressive Web Application. When you click off the text field it will save what you have written to IndexedDB."
         image={ Placeholder }
-        github=""/>
+        github="https://github.com/nwherman1724/text-editor"/>
     )
 }
 

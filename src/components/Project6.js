@@ -6,10 +6,10 @@ import Placeholder from '../img/placeholder_img.png'
 function Project6() {
     return (
         <Card 
-        title="Project6" 
-        desc="Here is the projects description!"
+        title="Team Profile Generator" 
+        desc="This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person."
         image={ Placeholder }
-        github=""/>
+        github="https://github.com/nwherman1724/team-profile-generator"/>
         
     )
 }

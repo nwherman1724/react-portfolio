@@ -1,14 +1,14 @@
 import React from 'react';
 import './Card.css';
 import Card from './Card';
-import Placeholder from '../img/placeholder_img.png'
+import Logo from '../img/React.webp'
 
 function Project1() {
     return (
-        <Card title= "Project1" 
-        desc="Here is the projects description!"
-        image={ Placeholder }
-        github=""/>
+        <Card title= "React Portfolio" 
+        desc="This is my portfolio developed with React. Click below for the github link."
+        image={ Logo }
+        github="https://github.com/nwherman1724/react-portfolio"/>
     )
 }
 
