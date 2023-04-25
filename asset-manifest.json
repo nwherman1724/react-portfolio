@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nwherman1724/react-portfolio/static/css/main.7276d0c5.css",
+    "main.js": "/nwherman1724/react-portfolio/static/js/main.e9f9f79e.js",
+    "static/media/Take2.png": "/nwherman1724/react-portfolio/static/media/Take2.aa986121916f1c002f2c.png",
+    "static/media/team-profile-generator-sm.png": "/nwherman1724/react-portfolio/static/media/team-profile-generator-sm.b33bb9f4ba87b6d014ae.png",
+    "static/media/N.Herman Resume.pdf": "/nwherman1724/react-portfolio/static/media/N.Herman Resume.b6c5b58ec2e0b4c340d4.pdf",
+    "static/media/Mongodb.png": "/nwherman1724/react-portfolio/static/media/Mongodb.bfc0fd10be4c8a6202ac.png",
+    "static/media/grumpyCat.jpeg": "/nwherman1724/react-portfolio/static/media/grumpyCat.0624ccc786135c9f91c4.jpeg",
+    "static/media/JateLogo.png": "/nwherman1724/react-portfolio/static/media/JateLogo.7a531b01f4c13a625787.png",
+    "static/media/MySQL-Logo.jpg": "/nwherman1724/react-portfolio/static/media/MySQL-Logo.42230e0be35283d7d28d.jpg",
+    "static/media/React.webp": "/nwherman1724/react-portfolio/static/media/React.2a0cac33f155e4a27216.webp",
+    "index.html": "/nwherman1724/react-portfolio/index.html",
+    "main.7276d0c5.css.map": "/nwherman1724/react-portfolio/static/css/main.7276d0c5.css.map",
+    "main.e9f9f79e.js.map": "/nwherman1724/react-portfolio/static/js/main.e9f9f79e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7276d0c5.css",
+    "static/js/main.e9f9f79e.js"
+  ]
+}
